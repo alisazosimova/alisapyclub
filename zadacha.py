@@ -103,7 +103,6 @@ em.submit("7email@test.com")
 em.submit("8email@test.com")
 em.shuffle()
 print(em)
-# pprint(em.shuffled_list)
 
 
 
