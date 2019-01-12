@@ -86,6 +86,8 @@ class Email:
     def __repr__(self):
         return 'pairs: ' + str(self.pairs)
 
+    def __str__(self):
+        return 'myobj'
         
 
 
@@ -110,19 +112,6 @@ print(em)
 #em.commit("1email@test.com")
 #em.commit("2email@test.com")
 
-#pprint(list(em.make_pairs()))
-
-
-
-
-
-
 
 import ipdb; ipdb.set_trace()
-
-
-
-
-
-
 
